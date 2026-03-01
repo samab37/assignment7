@@ -9,7 +9,7 @@ nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #3F4164;;
+    background: #3F4164;
 }
 
 nav ul {
@@ -39,10 +39,14 @@ h1 {
 }
 
 h1 strong {
-    background: rgb(34,193,195);
     background: linear-gradient(45deg, #4F8EF7 0%, #9B59B6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h2{
+    font-size: 2em;
+    color: #4F8EF7;
 }
 
 img.about {
@@ -64,4 +68,13 @@ main {
 
 .hero {
     text-align: center;
+}
+
+a {
+    color: #7271D6;
+    text-decoration: underline;
+}
+
+a:hover {
+    font-weight: bold;
 }
