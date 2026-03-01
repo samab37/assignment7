@@ -3,4 +3,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+  eleventyConfig.addShortcode("author", function(name) {
+  return `<p class="author">Written by ${name}</p>`;
+});
 };
